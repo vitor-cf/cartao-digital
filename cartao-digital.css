@@ -194,6 +194,7 @@ p {
   .container-4 {
     width: 100%;
     height: 10vh;
+    border-right: 0px;
     background-color: #023a88;
     border-top-right-radius: 0px;
     z-index: 1;
