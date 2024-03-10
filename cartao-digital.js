@@ -4,7 +4,7 @@ const users = [
     nome: "Davi Pita",
     foto: "./assets/images/davi.jpg",
     descricao:
-      "Seu domínio das ferramentas e técnicas da área garante resultados impecáveis e soluções inovadoras para os desafios do dia a dia.",
+      "CEO",
     midias: [
       {
         link: "#",
@@ -254,7 +254,7 @@ function adicionaDados() {
 
   $("#info-profissional").append(
     `<h1>${usuario.nome}</h1>
-    <p class="w-50 my-1">
+    <p class="my-1">
       ${usuario.descricao}
     </p>`
   );
