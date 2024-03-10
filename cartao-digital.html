@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cartao-digital.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <title>Cartão Digital</title>
+  </head>
+  <body>
+    <header>
+      <div class="w-100 d-flex justify-content-center align-items-center">
+        <img
+          src="./assets/images/forpy.png"
+          alt="Ícone Forpy"
+          class="logo-empresa"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="foto-integrante"></div>
+      <div class="background"></div>
+      <div class="conteudo d-flex flex-column justify-content-between">
+        <div
+          id="info-profissional"
+          class="d-flex flex-column align-items-center"
+        ></div>
+        <!-- Botoes midias sociais -->
+        <div
+          id="container-midia-sociais"
+          class="d-flex justify-content-evenly wrap"
+        ></div>
+        <!-- container links -->
+        <div class="d-flex w-100 container-links pos-relative">
+          <div
+            class="container-1 pos-absolute d-flex justify-content-center align-items-center"
+          >
+            <img src="./assets/icons/left-click.svg" alt="" class="icone-link" />
+            <span class="font-size-1-5 text-600">CLIQUE NOS ÍCONES</span>
+          </div>
+          <div
+            class="container-2 pos-absolute d-flex justify-content-end align-items-center"
+          >
+            <img
+              src="./assets/icons/qrcode-solid.svg"
+              alt=""
+              class="icone-link"
+            />
+          </div>
+          <div id="aba-link"></div>
+          <div id="outro-link"></div>
+          <div class="container-5 pos-absolute"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="cartao-digital.js"></script>
+</html>
